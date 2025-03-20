@@ -1,4 +1,4 @@
-import About from '@/components/About';
+// import About from '@/components/About';
 import Blog from '@/components/Blog';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
@@ -54,8 +54,8 @@ function Home() {
       {/* hero section  */}
       <Hero/>
       <div className='relative z-[30]'>
-        {/* about  */}
-        <About/>
+        
+        {/* <About/> */}
         <Service/>
         <Skill/>
         <Projects/>
