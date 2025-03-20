@@ -33,12 +33,12 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm">
         {/* Company Section */}
         <div className="mr-8">
-          <h3 className="font-semibold text-gray-300 mb-3">ExaltSystem</h3>
+          <h3 className="font-semibold text-gray-300 mb-3">Ausif Rth</h3>
           <p className="text-gray-400">
-            ExaltSystem is a leading and trusted software solution provider
-            offering product portfolio across various sectors like education
-            healthcare and fitness. We have various customized product offerings
-            for respective segments from schools to colleges and universities.
+             I am a Full-Stack Developer, passionate about building scalable,
+              efficient, and user-friendly web applications using modern
+              technologies like React, Next.js, Node.js, and MongoDB.Bringing
+              ideas to life through code! As a Full-Stack Developer
           </p>
         </div>
 

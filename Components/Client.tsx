@@ -6,18 +6,23 @@ interface Props {
   name: string;
   role: string;
   image: string;
+  review: string;
 }
-const Client = ({ name, role, image }: Props) => {
+const Client = ({ name, role, image, review }: Props) => {
   return (
     <div className=" flex flex-col text-center justify-center ">
-      <Image
-        src={image}
-        alt={name}
-        width={150}
-        height={100}
-        objectFit="contain"
-        className="mx-auto mb-[2rem] rounded-full"
-      />
+      <div className="w-[150px] h-[150px] rounded-full overflow-hidden border-4 border-blue-500 mx-auto">
+        <Image
+          src={image}
+          alt={name}
+          width={150}
+          height={150}
+          style={{ objectFit: "cover" }}
+          className="w-full h-full"
+        />
+      </div>
+
+
 
       <div className="flex items-center mx-auto">
         <StarIcon className="w-[2rem] h-[2rem] text-blue-400" />
@@ -31,10 +36,7 @@ const Client = ({ name, role, image }: Props) => {
         {role}
       </p>
       <p className="text-[16px] text-white opacity-75 w-[90%] md:w-[50%] mx-auto">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident cum
-        vel esse dignissimos incidunt rem temporibus! Dignissimos excepturi
-        reprehenderit voluptas quas voluptatibus eaque sit perspiciatis, iste
-        quis qui mollitia ab.
+        {review}
       </p>
     </div>
   );
