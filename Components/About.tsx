@@ -2,7 +2,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
 
-const About: React.FC = () => {
+const About = () => {
   return (
     <div className="bg-black pb-[3rem] pt-[4rem] md:pt-[8rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
