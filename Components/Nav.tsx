@@ -14,11 +14,11 @@ export const Nav = ({openNav}:Props) => {
                 <span className='text-green-600 text-2xl'>FOLIO</span>
             </h1>
             <Link href="/" className="nav-link">HOME</Link>
-                <Link href="#about" className="nav-link" scroll={false}>ABOUT</Link>
-                <Link href="/services" className="nav-link">SERVICES</Link>
-                <Link href="/projects" className="nav-link">PROJECTS</Link>
-                <Link href="/blog" className="nav-link">BLOG</Link>
-                <Link href="/contact" className="nav-link">CONTACT</Link>
+                <Link href="" className="nav-link" scroll={false}>ABOUT</Link>
+                <Link href="" className="nav-link">SERVICES</Link>
+                <Link href="" className="nav-link">PROJECTS</Link>
+                <Link href="" className="nav-link">BLOG</Link>
+                <Link href="" className="nav-link">CONTACT</Link>
             <div onClick={openNav}>
                 <Bars3CenterLeftIcon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-blue-400'/>
             </div>
