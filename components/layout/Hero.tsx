@@ -38,7 +38,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px]  bg-[green] relative lg:flex  rounded-full h-[500px] opacity-80 ">
+        <div className="w-[500px] hidden bg-[#020b02] relative lg:flex  rounded-full h-[500px] opacity-80 ">
           <Image
             src="/images/blogs.jpg"
             alt="image"
