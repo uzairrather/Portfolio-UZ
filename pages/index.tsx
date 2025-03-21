@@ -1,13 +1,13 @@
-import About from '../components/About';
-import Blog from '../components/Blog';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
-import MobileNav from '@/components/MobileNav';
-import { Nav } from '@/components/Nav'
-import Projects from '@/components/Projects';
-import Service from '@/components/Service';
-import Skill from '@/components/Skill';
-import Testimonial from '@/components/Testimonial';
+import About from '../components/sections/About';
+import Blog from '../components/sections/Blog';
+import Footer from '../components/layout/Footer';
+import Hero from '@/components/layout/Hero';
+import MobileNav from '@/components/layout/MobileNav';
+import  Nav  from '../components/layout/Nav'
+import Projects from '@/components/sections/Projects';
+import Service from '@/components/sections/Service';
+import Skill from '@/components/sections/Skill';
+import Testimonial from '../components/sections/Testimonial';
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 

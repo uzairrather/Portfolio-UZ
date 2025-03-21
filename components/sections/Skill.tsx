@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillItems from './SkillItems'
+import SkillItems from '../ui/SkillItems'
 import SkillLanguage from './SkillLanguage'
 
 const Skill = () => {

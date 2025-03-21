@@ -1,9 +1,9 @@
 import React from "react";
 // import Particle from './Particle'
-import TextEffect from "./TextEffect";
+import TextEffect from "../ui/TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
-import Particle from "./Particle";
+import Particle from "../ui/Particle";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
               className="px-[2rem] hover:bg-blue-500 transition-all duration-200 py-[1rem] 
             text-[18px] font-bold uppercase bg-green-500 text-black flex items-center space-x-2 rounded-sm"
             >
-              <p>Download V</p>
+              <p>Download CV</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
           </div>
