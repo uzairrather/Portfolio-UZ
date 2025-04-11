@@ -11,15 +11,29 @@ const Projects = () => {
            <div data-aos="fade-up">
              <div className='transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project1.png" alt='image' layout='fill' className='object-contain'/>
-
+              <a href="https://next-ecommerence.vercel.app/">
+                  <Image
+                    src="/images/project-1.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
              </div>
            </div>
 
            <div data-aos="fade-up" data-aos-delay="300">
              <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project2.png" alt='image' layout='fill' className='object-contain'/>
+          
+          <a href="https://react-landing-page-swart.vercel.app/">
+                  <Image
+                    src="/images/project2.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
 
              </div>
            </div>
@@ -27,7 +41,14 @@ const Projects = () => {
            <div data-aos="fade-up" data-aos-delay="600">
              <div className='transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project3.png" alt='image' layout='fill' className='object-contain'/>
+                <a href="https://next-ecommerence.vercel.app/">
+                  <Image
+                    src="/images/project3.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
 
              </div>
            </div>
@@ -35,14 +56,28 @@ const Projects = () => {
            <div data-aos="fade-up" data-aos-delay="900">
              <div className='transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project3.png" alt='image' layout='fill' className='object-contain'/>
+                <a href="https://next-ecommerence.vercel.app/">
+                  <Image
+                    src="/images/project3.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
 
              </div>
            </div>
            <div data-aos="fade-up" data-aos-delay="1200">
              <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project2.png" alt='image' layout='fill' className='object-contain'/>
+                <a href="https://react-landing-page-swart.vercel.app/">
+                  <Image
+                    src="/images/project2.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
 
              </div>
            </div>
@@ -50,7 +85,14 @@ const Projects = () => {
            <div data-aos="fade-up" data-aos-delay="1600">
              <div className='transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <Image src="/images/project1.png" alt='image' layout='fill' className='object-contain'/>
+                <a href="https://next-ecommerence.vercel.app/">
+                  <Image
+                    src="/images/project-1.png"
+                    alt="image"
+                    layout="fill"
+                    className="object-contain"
+                  />
+                </a>
 
              </div>
            </div>
