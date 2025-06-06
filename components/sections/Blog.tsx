@@ -3,7 +3,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className='pt-[1rem] md:pt-[8rem] pb-[4rem] bg-black'>
+    <div  id="blog" className='pt-[1rem] md:pt-[8rem] pb-[4rem] bg-black'>
         <h1 className='heading mb-4'>
             MY<span className='text-blue-500 '>BLOGS</span>
         </h1>

@@ -2,27 +2,27 @@ import { Phone, PhoneIcon, MailIcon, HomeIcon } from "lucide-react";
 import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { useState } from "react";
 
-
+import Link from 'next/link';
 export default function Footer() {
   const [active, setActive] = useState("");
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer  id="footer" className="bg-gray-900 text-white">
       {/* Social Media Section */}
       <div className="bg-purple-900 px-6 py-4">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">Get connected with us on social networks:</p>
           <div className="flex space-x-4 mt-2 md:mt-0 gap-5 ">
-            <a href="#" className="hover:text-gray-300">
+            <a href="https://www.facebook.com/uzair.rather.31/" className="hover:text-gray-300">
               <FaFacebookF size={24} />
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="https://x.com/rather_uza32824" className="hover:text-gray-300">
               <FaTwitter size={24} />
             </a>
             <a href="#" className="hover:text-gray-300">
               <FaInstagram size={24} />
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="https://github.com/uzairrather" className="hover:text-gray-300">
               <FaGithub size={24} />
             </a>
           </div>
@@ -74,12 +74,22 @@ export default function Footer() {
           <h3 className="font-semibold text-gray-300 mb-3">USEFUL LINKS</h3>
           <div>
             <ul className="space-y-2 " >
+          <a href="/">
               <li className="flex items-center gap-2 text-gray-400 mb-2">Home </li>
-              <li className="flex items-center gap-2 text-gray-400 mb-2">About  </li>
+          </a>
+          <a href="#about">
+              <li className="flex items-center gap-2 text-gray-400 mb-2">About </li>
+          </a>
+          <a href="#service">
               <li className="flex items-center gap-2 text-gray-400 mb-2">Service </li>
-              <li className="flex items-center gap-2 text-gray-400 mb-2">Projects </li>
-              <li className="flex items-center gap-2 text-gray-400 mb-2">Blogs </li>
-             
+          </a>
+          <a href="#project">
+              <li className="flex items-center gap-2 text-gray-400 mb-2">Projects</li>
+          </a>
+          <a href="#blog">
+              <li className="flex items-center gap-2 text-gray-400 mb-2">Blogs</li>
+          </a>
+              
             </ul>
           </div>
         </div>

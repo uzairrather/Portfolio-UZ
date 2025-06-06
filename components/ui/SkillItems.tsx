@@ -18,18 +18,14 @@ const SkillItems = ({ title, year }: Props) => {
         {title}
       </h1>
       <p className="text-white font-normal w-[80%] text-[17px]  opacity-80">
-        I am a Full-Stack Developer with expertise in building modern, scalable,
-        and high-performance web applications. On the frontend, I specialize in
-        HTML, CSS, JavaScript (ES6+), React.js, Next.js, and TypeScript,
-        creating dynamic and responsive user interfaces. I leverage server-side
-        rendering (SSR), static site generation (SSG), and API routes in Next.js
-        to optimize performance and SEO. My styling approach includes Tailwind
-        CSS, CSS Modules, and Styled Components, ensuring visually appealing and
-        responsive designs. On the backend, I work with Node.js and MongoDB,
-        developing robust and efficient server-side applications. Using
-        Express.js, I build RESTful APIs, handle authentication with JWT, and
-        ensure secure data management. I design database schemas in MongoDB,
-        utilizing Mongoose for efficient data modeling. 
+        Full Stack web developer with 2+ years of hands-on experience building
+        scalable and responsive web applications using JavaScript, Next.js,
+        React.js, Redux, TypeScript, Tailwind CSS and Node.js. Proficient in
+        front-end technologies including HTML, CSS, and modern component-based
+        architectures. Skilled in implementing RESTful APIs, Test-Driven
+        Development (TDD), and accessibility standards. Experienced with backend
+        tools and services such as MongoDB, Clerk for authentication, and
+        Inngest for event-driven workflows.
       </p>
     </div>
   );

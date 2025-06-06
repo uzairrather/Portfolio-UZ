@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='bg-black pt-[4rem] md:pt-[8rem] pb-[1rem]'>
+    <div  id="projects" className='bg-black pt-[4rem] md:pt-[8rem] pb-[1rem]'>
         <h1 className='heading'>
                Pro <span className='text-blue-500'>Ject</span>
         </h1>

@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <button
               onClick={() =>
-                window.open("https://your-resume-link.com", "_blank")
+                window.open("https://drive.google.com/file/d/1cNXCwWkZP_RyY11Cx2V7fWvY6ZNOtSq_/view?usp=drive_link", "_blank")
               }
               className="px-[2rem] hover:bg-blue-500 transition-all duration-200 py-[1rem] 
             text-[18px] font-bold uppercase bg-green-500 text-black flex items-center space-x-2 rounded-sm"

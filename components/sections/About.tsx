@@ -2,9 +2,9 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
 
-const  About = () => {
+const About = () => {
   return (
-    <div className="bg-black pb-[3rem] pt-[4rem] md:pt-[8rem]">
+    <div  id="about" className="bg-black pb-[3rem] pt-[4rem] md:pt-[8rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className="text-[20px] font-bold uppercase text-teal-500  mb-[1rem]">
@@ -16,19 +16,23 @@ const  About = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              I am a Full-Stack Developer, passionate about building scalable,
-              efficient, and user-friendly web applications using modern
-              technologies like React, Next.js, Node.js, and MongoDB.Bringing
-              ideas to life through code! As a Full-Stack Developer, I create
-              fast, secure, and dynamic web applications that enhance user
-              experiences and drive digital transformation.I build
-              high-performance, end-to-end web solutions, combining beautiful
-              frontend designs with powerful backend systems
+              Full Stack web developer with 2+ years of hands-on experience
+              building scalable and responsive web applications using
+              JavaScript, Next.js, React.js, Redux, TypeScript, Tailwind CSS and
+              Node.js. Proficient in front-end technologies including HTML, CSS,
+              and modern component-based architectures. Skilled in implementing
+              RESTful APIs, Test-Driven Development (TDD), and accessibility
+              standards. Experienced with backend tools and services such as
+              MongoDB, Clerk for authentication, and Inngest for event-driven
+              workflows.
             </p>
           </div>
           <button
             onClick={() =>
-              window.open("https://your-resume-link.com", "_blank")
+              window.open(
+                "https://drive.google.com/file/d/1cNXCwWkZP_RyY11Cx2V7fWvY6ZNOtSq_/view?usp=drive_link",
+                "_blank"
+              )
             }
             className="px-[2rem] hover:bg-blue-500 transition-all duration-200 py-[1rem] 
             text-[18px] font-bold uppercase bg-green-500 text-black flex items-center space-x-2 rounded-sm"
@@ -53,5 +57,4 @@ const  About = () => {
     </div>
   );
 };
-export default About
-
+export default About;

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className='bg-black pt-[4rem] md:pt-[8rem] pb-[2rem]'>
+    <div  id="service" className='bg-black pt-[4rem] md:pt-[8rem] pb-[2rem]'>
       <p className='heading'>MY-<span className='text-blue-400'>Services</span></p>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] text-center mx-auto gap-[3rem] mt-[4rem] text-white'>
         <div data-aos="fade-right ">
