@@ -16,7 +16,7 @@ const About = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              Full Stack web developer with 2+ years of hands-on experience
+              Full Stack web developer with 3+ years of hands-on experience
               building scalable and responsive web applications using
               JavaScript, Next.js, React.js, Redux, TypeScript, Tailwind CSS and
               Node.js. Proficient in front-end technologies including HTML, CSS,

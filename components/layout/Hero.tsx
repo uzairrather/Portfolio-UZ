@@ -20,7 +20,7 @@ const Hero = () => {
             foundation in modern web technologies.<br></br> I specialize in
             designing, developing, and deploying scalable,high-performance web
             applications<br></br>
-            that provide a seamless user experience. From crafting responsive
+            that provide a seamless 3+years of user experience. From crafting responsive
             frontend interfaces to building<br></br> robust backend
             architectures, I bring ideas to life with clean,<br></br> efficient,
             and maintainable cod

@@ -18,7 +18,7 @@ const SkillItems = ({ title, year }: Props) => {
         {title}
       </h1>
       <p className="text-white font-normal w-[80%] text-[17px]  opacity-80">
-        Full Stack web developer with 2+ years of hands-on experience building
+        Full Stack web developer with 3+ years of hands-on experience building
         scalable and responsive web applications using JavaScript, Next.js,
         React.js, Redux, TypeScript, Tailwind CSS and Node.js. Proficient in
         front-end technologies including HTML, CSS, and modern component-based
