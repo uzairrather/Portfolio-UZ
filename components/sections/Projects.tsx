@@ -41,7 +41,7 @@ const Projects = () => {
            <div data-aos="fade-up" data-aos-delay="600">
              <div className='transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]'>
-                <a href="https://next-ecommerence.vercel.app/">
+                <a href="https://uzair-tech-avwh.vercel.app/">
                   <Image
                     src="/images/project3.png"
                     alt="image"
