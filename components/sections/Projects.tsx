@@ -13,9 +13,9 @@ const Projects = () => {
             className="transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]"
           >
-            <a href="https://next-ecommerence.vercel.app/">
+            <a href="https://ai-powered-frontend.vercel.app/">
               <Image
-                src="/images/project-1.png"
+                src="/images/project-7.png"
                 alt="image"
                 layout="fill"
                 className="object-contain"
@@ -60,9 +60,9 @@ const Projects = () => {
             className="transform cursor-pointer hover:-translate-x-6 transition-all duration-200 relative
              w-[100%] h-[200px] md:h-[300px]"
           >
-            <a href="https://wonder-leap.vercel.app/">
+            <a href="https://next-ecommerence.vercel.app/">
               <Image
-                src="/images/project-5.png"
+                src="/images/project-1.png"
                 alt="image"
                 layout="fill"
                 className="object-contain"
